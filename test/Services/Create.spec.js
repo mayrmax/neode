@@ -5,7 +5,7 @@ import neo4j from 'neo4j-driver';
 
 const TIMEOUT = 10000;
 
-describe('Services/Create.js', () => {
+describe('Services/Create.ts', () => {
     let instance;
     let model;
 

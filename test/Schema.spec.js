@@ -1,7 +1,7 @@
 import {assert, expect} from 'chai';
 import Schema from '../src/Schema';
 
-describe('Schema.js', () => {
+describe('Schema.ts', () => {
     const label = 'SchemaThing';
     let instance;
 

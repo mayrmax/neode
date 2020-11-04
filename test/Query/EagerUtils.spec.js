@@ -1,7 +1,7 @@
 import {assert, expect} from 'chai';
 import { eagerNode, eagerRelationship, eagerPattern, } from '../../src/Query/EagerUtils';
 
-describe('Query/EagerUtils.js', () => {
+describe('Query/EagerUtils.ts', () => {
     const instance = require('../instance')();
     const model = instance.model('EagerUtilTest', {
         name: 'string',

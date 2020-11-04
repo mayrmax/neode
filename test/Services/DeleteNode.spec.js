@@ -3,7 +3,7 @@ import {expect} from 'chai';
 
 const TIMEOUT = 10000;
 
-describe('Services/DeleteNode.js', () => {
+describe('Services/DeleteNode.ts', () => {
     let instance;
 
     const label = 'DeleteTest';

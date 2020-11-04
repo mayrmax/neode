@@ -6,7 +6,7 @@ import { ERROR_VALIDATION } from '../../src/ValidationError';
 import neo4j from 'neo4j-driver';
 
 
-describe('Services/Validator.js', () => {
+describe('Services/Validator.ts', () => {
     let instance;
 
     before(() => {

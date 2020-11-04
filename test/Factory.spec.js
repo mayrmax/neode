@@ -8,7 +8,7 @@ import { EAGER_ID, EAGER_LABELS, EAGER_TYPE, eagerNode, } from '../src/Query/Eag
 import neo4j from 'neo4j-driver';
 import RelationshipType from '../src/RelationshipType';
 
-describe('Factory.js', () => {
+describe('Factory.ts', () => {
     let instance;
     let factory;
     let model;

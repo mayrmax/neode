@@ -3,7 +3,7 @@ import Property from '../src/Property';
 import Model from '../src/Model';
 import {assert, expect} from 'chai';
 
-describe('RelationshipType.js', () => {
+describe('RelationshipType.ts', () => {
     let instance;
     let model;
 

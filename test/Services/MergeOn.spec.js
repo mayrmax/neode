@@ -5,7 +5,7 @@ import Node from '../../src/Node';
 
 const TIMEOUT = 10000;
 
-describe('Services/MergeOn.js', () => {
+describe('Services/MergeOn.ts', () => {
     let instance;
     let model;
 

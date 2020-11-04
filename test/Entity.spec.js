@@ -2,7 +2,7 @@ import {assert, expect} from 'chai';
 import Entity, { valueToJson } from '../src/Entity';
 import neo4j from 'neo4j-driver';
 
-describe('Entity.js', () => {
+describe('Entity.ts', () => {
     
     describe('::constructor', () => {
         // TODO: More comprehensive entity tests

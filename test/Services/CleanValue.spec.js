@@ -2,7 +2,7 @@ import {assert, expect} from 'chai';
 import CleanValue from '../../src/Services/CleanValue';
 import neo4j from 'neo4j-driver';
 
-describe('Services/CleanValue.js', () => {
+describe('Services/CleanValue.ts', () => {
 
     it('should handle a float', () => {
         const input = '1.2';

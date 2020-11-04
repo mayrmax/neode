@@ -2,7 +2,7 @@ import {assert, expect} from 'chai';
 import Node from '../src/Node';
 import Collection from '../src/Collection';
 
-describe('Collection.js', () => {
+describe('Collection.ts', () => {
     const neode = '__neode__';
     const values = [1, 2, 3, 4];
 

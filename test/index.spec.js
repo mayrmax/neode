@@ -1,5 +1,5 @@
 import {assert, expect} from 'chai';
-import Neode from '../src/index';
+import Neode from '../src';
 import Model from '../src/Model';
 import Node from '../src/Node';
 import Collection from '../src/Collection';
@@ -8,7 +8,7 @@ import Builder from '../src/Query/Builder';
 import Relationship from '../src/Relationship';
 import { ERROR_TRANSACTION_FAILED } from '../src/TransactionError';
 
-describe('index.js', () => {
+describe('index.ts', () => {
     const label = 'IndexTest';
     const schema = {
         name: {type: 'string', primary: true},

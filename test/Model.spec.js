@@ -4,7 +4,7 @@ import Model from '../src/Model';
 import RelationshipType from '../src/RelationshipType';
 import Property from '../src/Property';
 
-describe('Model.js', () => {
+describe('Model.ts', () => {
     let instance;
     let model;
     const name = 'ModelTest';

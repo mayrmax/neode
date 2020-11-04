@@ -1,4 +1,4 @@
-import Neode from '../src/index';
+import Neode from '../src';
 
 function createInstance() {
     return Neode.fromEnv();

@@ -4,7 +4,7 @@ import WhereStatement from '../../src/Query/WhereStatement';
 import { int } from 'neo4j-driver';
 import RelationshipType from '../../src/RelationshipType';
 
-describe('Query/Builder.js', () => {
+describe('Query/Builder.ts', () => {
     let instance;
     let model;
 

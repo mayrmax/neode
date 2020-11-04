@@ -1,7 +1,7 @@
 import {assert, expect} from 'chai';
 import GenerateDefaultValues from '../../src/Services/GenerateDefaultValues';
 
-describe('Services/GenerateDefaultValues.js', () => {
+describe('Services/GenerateDefaultValues.ts', () => {
     let instance;
     let model;
 

@@ -2,7 +2,7 @@ import ModelMap from '../src/ModelMap';
 import Model from '../src/Model';
 import {assert, expect} from 'chai';
 
-describe('src/ModelMap.js', () => {
+describe('src/ModelMap.ts', () => {
     const map = new ModelMap();
 
     describe('::set', () => {
